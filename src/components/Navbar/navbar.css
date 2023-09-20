@@ -1,0 +1,45 @@
+/*mian div of navbar*/
+.navbar-main {
+    display: flex;
+    justify-content: space-around;
+   
+}
+/*icnos for social*/
+.icon-social {
+   position: relative;
+   top: 20px;
+   right: 20px;
+   margin: 10px;
+    color: var(--color-bg--white);
+cursor: pointer;
+transition: all 0.3s ease-in-out 0.1s;
+z-index: 1000;
+}
+.icon-social:hover {
+    transform: scale(1.6);
+    color: aqua;
+
+    transition: all 0.3s ease-in-out 0.1s;
+}
+
+/*links for paging*/
+.Home-link {
+    position: relative;
+top: 40px; z-index: 1000;
+    color: var(--color-bg--white);
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+ padding: 25px 25px;
+    font-weight: bolder;
+   
+  font-family: var(--font-2);
+    letter-spacing: 2px;
+  transition: all 0.3s ease-in-out 0.2s;
+    
+}
+
+.Home-link:hover{
+    color: aqua;
+}
+/*darkmode css*/

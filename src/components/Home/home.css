@@ -1,0 +1,166 @@
+
+
+
+.background-home-image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+}
+/*main texts self taugh*/
+.home-text-box {
+  max-width: 450px;
+}
+.heading-2 {
+  position: relative;
+
+  padding: 5px 10px;
+  color: var(--color-bg--white);
+  font-size: 1.2rem;
+  font-family: var(--font-2);
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 2s steps(6) infinite alternate,
+    blink 1s steps(8) infinite normal;
+  border-right: 1px solid black;
+}
+@keyframes typewriter {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 35%;
+  }
+}
+@keyframes blink {
+  from {
+    border-color: var(--color-bg--white);
+  }
+  to {
+    border-color: transparent;
+  }
+}
+
+.heading-3 {
+  animation: roller infinite ease-out 4s;
+  font-size: 58px;
+  color: var(--color-bg--white);
+
+}
+@keyframes roller {
+  0% {
+    transform: rotateX(0deg);
+  }
+
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+
+.heading-1 {
+  position: relative;
+  color: var(--color-bg--white);
+  font-family: var(--font-1);
+  font-size: 5em;
+
+}
+/*main parent of this*/
+.home-main {
+
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  overflow: hidden;
+  flex-wrap: wrap;
+
+}
+/*perosnal photo*/
+.face {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+.arrow-down {
+  width: 10px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  margin: auto;
+  bottom: 14rem;
+
+  text-align: center;
+  color: var(--color-bg--white);
+  border: 1px grey solid;
+  border-radius: 50%;
+  padding: 50px;
+  animation: moiving infinite;
+}.arrow-down {
+  -webkit-animation: moiving 1s infinite  alternate;
+  animation: moiving 1s infinite  alternate;
+}
+
+
+@-webkit-keyframes moiving {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(0px); }
+}
+@keyframes moiving {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(30px); }
+
+}
+
+
+
+
+
+
+
+
+  
+  @media only screen and (max-width: 412px) {
+    .heading-1{
+position: relative;
+
+  
+   
+     
+    }
+    .arrow-down{
+      position: relative;
+      top: 100px;
+      width: 10px;
+    height: 10px;
+    }
+    .heading-2 {
+      position: relative;
+
+    }
+  }
+
+  @media only screen and (max-width: 750px) {
+.arrow-down{
+display: none;
+}
+  }
+  @media only screen and (max-width: 1180px) {
+    .home-main {
+      flex-direction: row;
+    }
+    .face {
+      position: relative;
+     
+      width: 300px;
+      height: 300px;
+ 
+    }
+   
+  }
