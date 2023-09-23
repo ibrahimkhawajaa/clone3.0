@@ -1,19 +1,22 @@
 /*mian div of navbar*/
 .navbar-main {
+    position: relative;
+    top: 10px;
     display: flex;
     justify-content: space-around;
-   
+align-items: center;
 }
 /*icnos for social*/
 .icon-social {
    position: relative;
-   top: 20px;
+   top: 40px;
    right: 20px;
+
    margin: 10px;
     color: var(--color-bg--white);
 cursor: pointer;
 transition: all 0.3s ease-in-out 0.1s;
-z-index: 1000;
+z-index: 100;
 }
 .icon-social:hover {
     transform: scale(1.6);
@@ -28,7 +31,7 @@ z-index: 1000;
 top: 40px; z-index: 1000;
     color: var(--color-bg--white);
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     cursor: pointer;
  padding: 25px 25px;
     font-weight: bolder;
@@ -43,3 +46,14 @@ top: 40px; z-index: 1000;
     color: aqua;
 }
 /*darkmode css*/
+@media only screen and (max-width: 475px){
+    .Home-link{
+        font-size: 16px;
+        right: 20px;
+        top: 40px;
+    }
+    .icon-social{
+        position: relative;
+        top: 40px;
+    }
+}

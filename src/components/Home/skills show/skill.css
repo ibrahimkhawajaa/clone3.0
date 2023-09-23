@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Orbitron);
 
 .container{
-    height: 80vh;
+    height: 87vh;
 width: 100vw;
   background-position: center;
     background-repeat: no-repeat;
@@ -66,14 +66,16 @@ top: 36%;
 #left {
   float: left;
   font-size: 1.2em;
-  font-family: var(--font-3);
- 
+  font-family: var(--font-2);
+font-weight: bolder;
 }
 
 #right {
+
   float: right;
   font-size: 1.2em;
-  font-family: var(--font-3);
+  font-family: var(--font-2);
+  font-weight: bolder;
 }
 h1 {
   color: #fff;
@@ -106,8 +108,8 @@ h1 {
   color: #fff;
   position: relative;
   margin-left: 0px;
-  font-size: 17px;
-  font-family: var(--font-3);
+  font-size: 20px;
+  font-family: var(--font-4);
   font-weight:500;
 }
 
@@ -333,8 +335,35 @@ h1 {
       width: 50%;
   }
 }
-@media only screen and (max-width: 710px){
+
+@media only screen and (max-width: 992px){
 .container-progress{
-  top: 20%;
+  position: relative;
+top: 10%;
 }
+.glow{
+  font-size: 3em;
+}
+#left {
+  font-size: 20px;
+}
+#right {
+  font-size: 20px;
+}
+.skills-bar-container li{
+  right: 20px;
+}
+}
+
+@media only screen and (max-width: 505px){
+ 
+
+  #left {
+    font-size: 10px;
+  }
+  #planet-icon{
+display: none;
+  }
+ 
+ 
 }

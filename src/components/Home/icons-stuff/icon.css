@@ -5,10 +5,11 @@
   gap: var(--gap);
   color: white;
   font-size: 5em;
+
 }
 .marquee-2 {
   position: relative;
-  bottom: 10em;
+  bottom: -1em;
   
 }
 .marquee-3 {
@@ -52,6 +53,6 @@ list-style: none;
 }
 
 .main-marquee {
-  position: relative;
-  top: 10em;
+padding-top: 10em;
+padding-bottom: 4em;
 }

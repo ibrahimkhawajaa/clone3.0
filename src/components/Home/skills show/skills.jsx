@@ -35,13 +35,13 @@ const skills = () => {
         <span class="progressbar progressblue" id="progress-htmlcss"></span>
       </li>
 
-      <label>JavaScript / jQuery</label>
+      <label>JavaScript</label>
       <span class="percent"></span>
       <li>
         <span class="progressbar progressblue" id="progress-jsjq"></span>
       </li>
 
-      <label>PHP</label>
+      <label>Mongodb</label>
       <span class="percent"></span>
       <li>
         <span class="progressbar progressblue" id="progress-php"></span>
@@ -51,19 +51,19 @@ const skills = () => {
   <div id="right">
     <h1>Programming</h1>
     <ul class="skills-bar-container">
-      <label>Java</label>
+      <label>Node.js</label>
       <span class="percent"></span>
       <li>
         <span class="progressbar progressblue" id="progress-java"></span>
       </li>
 
-      <label>C#</label>
+      <label>Git/Github</label>
       <span class="percent" id="angular-pourcent"></span>
       <li>
         <span class="progressbar progressblue" id="progress-csharp"></span>
       </li>
       
-      <label>SQL / MySQL</label>
+      <label>VS/English</label>
       <span class="percent" id="angular-pourcent"></span>
       <li>
         <span class="progressbar progressblue" id="progress-sql"></span>

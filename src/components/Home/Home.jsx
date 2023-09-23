@@ -7,6 +7,7 @@ import Skill from './skills show/skills'
 import About from './about/About'
 import Icon from './icons-stuff/icon'
 import Background from "./stars-black-.jpg"
+import Contact from './projects-read/pro'
 const Home = () => {
 useEffect(()=>{
   AOS.init();
@@ -39,11 +40,12 @@ useEffect(()=>{
        <About/> 
     <Icon/>
 <Skill/>
-
+<Contact/>
 
 
 
     </>  
-  )
+
+)
 }
 export default Home;
