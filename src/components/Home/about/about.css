@@ -6,6 +6,7 @@
 top: rem;
   font-size: 40px;
   color: var(--color-bg--white);
+  padding-top: 5rem;
   bottom: 20px;
 }
 
@@ -54,7 +55,7 @@ padding-bottom: em;
 }
 @media only screen and (max-width: 412px) {
   .about-heading{
-    padding-top: 5rem;
+    padding-top: 6rem;
     padding-bottom: 4rem;
     position: relative;
     font-size: 4.4rem;
@@ -67,7 +68,5 @@ padding-bottom: em;
   .about-heading{
     font-size: 2em;
   }
-  .scroller p{
-    font-size: px;
-  }
+ 
 }

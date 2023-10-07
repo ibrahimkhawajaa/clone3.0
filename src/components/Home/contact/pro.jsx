@@ -70,12 +70,7 @@ const projects = () => {
           <li><a href="#" target="_blank" class="contact-icon">
           <GitHubIcon/></a>
           </li>
-          <li><a href="#" target="_blank" class="contact-icon">
-          <InstagramIcon/></a>
-          </li>
-          <li><a href="#" target="_blank" class="contact-icon">
-          <InstagramIcon/></a>
-          </li>       
+        
         </ul>
         <hr/>
 

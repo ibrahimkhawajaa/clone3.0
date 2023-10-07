@@ -7,7 +7,7 @@ import Skill from './skills show/skills'
 import About from './about/About'
 import Icon from './icons-stuff/icon'
 import Background from "./stars-black-.jpg"
-import Contact from './projects-read/pro'
+import Contact from './contact/pro'
 const Home = () => {
 useEffect(()=>{
   AOS.init();
